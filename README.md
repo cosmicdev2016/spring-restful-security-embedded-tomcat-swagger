@@ -13,7 +13,9 @@
 
 1. Download `JDK 8` (ignore, if already present).
 2. Download `apache-maven-3.5.4` (ignore, if already present). 
-3. Command to package and build war file: `mvn clean compile package`
+3. Change log file location: 
+	1. Edit `logback.xml` and change the path for `LOG_HOME` property.
+4. Command to package and build war file: `mvn clean compile package`
 
 ## Run Book
 
@@ -27,4 +29,5 @@
 3. Credentials for `Basic Auth` are: 
 	1. **User id:** `admin`
 	2. **Password:** `admin123`
-4. OPTIONAL: WAR file is added to `target` folder in case of any issues with Maven build.
+4. Log location is `C:\logs` and log filename is `transaction-debug.log`
+5. OPTIONAL: WAR file is added to `target` folder in case of any issues with Maven build.
