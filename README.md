@@ -11,8 +11,9 @@
 
 ## Setup
 
-1. Download `apache-maven-3.5.4` (if you don't have already). 
-2. Command to package and build war file: `mvn clean compile package`
+1. Download `JDK 8` (ignore, if already present).
+2. Download `apache-maven-3.5.4` (ignore, if already present). 
+3. Command to package and build war file: `mvn clean compile package`
 
 ## Run Book
 
