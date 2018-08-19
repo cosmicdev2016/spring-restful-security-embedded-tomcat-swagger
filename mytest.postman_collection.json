@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "453715e2-40d8-4226-bfa4-91ca5e88071b",
+		"name": "mytest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hcltransaction",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/transaction/hcltransaction/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaction",
+						"hcltransaction",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hcltransaction find",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/transaction/hcltransaction/SANDBOX_TAN",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaction",
+						"hcltransaction",
+						"SANDBOX_TAN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hcltransaction total",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/transaction/hcltransaction/SANDBOX_TAN/total",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaction",
+						"hcltransaction",
+						"SANDBOX_TAN",
+						"total"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
