@@ -1,4 +1,4 @@
-package com.test.security;
+package com.myspring.security;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

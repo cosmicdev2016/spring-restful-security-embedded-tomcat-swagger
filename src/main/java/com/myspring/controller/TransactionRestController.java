@@ -1,4 +1,4 @@
-package com.test.controller;
+package com.myspring.controller;
 
 
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.test.model.HclTransactionInfo;
-import com.test.service.TransactionService;
+import com.myspring.model.HclTransactionInfo;
+import com.myspring.service.TransactionService;
 
 
 @RestController
@@ -64,7 +64,7 @@ public class TransactionRestController {
 
 		Map<String, Object> transactionTotal = transactionService
 				.getTotalAmountByTransactionType(hclTransactionInfo, transactionType);
-		
+
 		if (transactionTotal == null) {
 			LOGGER.info("Transaction type - " + transactionType + ", not found.");
 			return new ResponseEntity<Map<String, Object>>(HttpStatus.NOT_FOUND);

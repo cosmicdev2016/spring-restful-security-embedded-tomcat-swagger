@@ -1,4 +1,4 @@
-package com.test.model;
+package com.myspring.model;
 
 public class HclTransactionInfo {
 

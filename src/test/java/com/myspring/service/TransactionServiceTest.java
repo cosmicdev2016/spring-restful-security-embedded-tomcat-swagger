@@ -1,4 +1,4 @@
-package com.test.service;
+package com.myspring.service;
 
 
 import static org.junit.Assert.assertEquals;
@@ -27,9 +27,10 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.web.client.RestTemplate;
 
-import com.test.configuration.TransactionConfiguration;
-import com.test.constants.ConfigConstants;
-import com.test.model.HclTransactionInfo;
+import com.myspring.configuration.TransactionConfiguration;
+import com.myspring.constants.ConfigConstants;
+import com.myspring.model.HclTransactionInfo;
+import com.myspring.service.TransactionService;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)

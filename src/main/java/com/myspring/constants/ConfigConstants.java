@@ -1,4 +1,4 @@
-package com.test.constants;
+package com.myspring.constants;
 
 
 public interface ConfigConstants {

@@ -1,4 +1,4 @@
-package com.test.configuration;
+package com.myspring.configuration;
 
 
 import java.io.IOException;

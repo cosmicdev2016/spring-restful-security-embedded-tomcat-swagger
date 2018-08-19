@@ -35,7 +35,7 @@
 		<appender-ref ref="STDOUT" />
 	</logger>
 
-	<logger name="com.test" level="debug" additivity="false">
+	<logger name="com.myspring" level="debug" additivity="false">
 		<appender-ref ref="STDOUT" />
 		<appender-ref ref="DEBUG-LOG" />
 	</logger>

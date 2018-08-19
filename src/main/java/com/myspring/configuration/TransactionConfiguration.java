@@ -1,4 +1,4 @@
-package com.test.configuration;
+package com.myspring.configuration;
 
 
 import org.springframework.context.annotation.Bean;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.test")
+@ComponentScan(basePackages = "com.myspring")
 public class TransactionConfiguration extends WebMvcConfigurerAdapter {
 
 	/**

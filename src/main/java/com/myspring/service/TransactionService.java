@@ -1,10 +1,10 @@
-package com.test.service;
+package com.myspring.service;
 
 
 import java.util.List;
 import java.util.Map;
 
-import com.test.model.HclTransactionInfo;
+import com.myspring.model.HclTransactionInfo;
 
 
 public interface TransactionService {

@@ -1,7 +1,7 @@
-package com.test.service;
+package com.myspring.service;
 
 
-import static com.test.constants.ConfigConstants.HCL_API_URL;
+import static com.myspring.constants.ConfigConstants.HCL_API_URL;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -22,8 +22,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.test.model.HclTransactionInfo;
-import com.test.model.Transaction;
+import com.myspring.model.HclTransactionInfo;
+import com.myspring.model.Transaction;
 
 
 @Service("transactionService")

@@ -1,4 +1,4 @@
-package com.test.model;
+package com.myspring.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
