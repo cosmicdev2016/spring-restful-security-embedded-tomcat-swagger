@@ -23,3 +23,4 @@
 3. Credentials for `Basic Auth` are: 
 	1. **User id:** `admin`
 	2. **Password:** `admin123`
+4. OPTIONAL: WAR file is added to `target` folder in case of any issues with Maven build.
