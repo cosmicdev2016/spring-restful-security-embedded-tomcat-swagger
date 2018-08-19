@@ -6,6 +6,8 @@
 2. Spring 4.3.17.RELEASE
 3. Embedded Tomcat 7
 4. Swagger 2
+5. slf4j + logback
+6. Maven 3.5.x
 
 ## Setup
 
