@@ -34,7 +34,10 @@
 		1. Click `List Operations` link to access all the API links.
 		2. Input parameters to the API as appropriate and click `Try it out` button.
 		3. Enter username and password for `Basic Auth' when browser prompts.
-2. Credentials for `Basic Auth` are: 
-	1. **User id:** `admin`
+2. Credentials for `Basic Auth` (Role: ADMIN): 
+	1. **User id:** `admin` (this user has access to all 3 REST api)
 	2. **Password:** `admin123`
-3. Log location is `C:\logs` and log filename is `transaction-debug.log`
+3. Credentials for `Basic Auth` (Role: USER): 
+	1. **User id:** `gaurav` (this user does not have access to any api)
+	2. **Password:** `test123`
+4. Log location is `C:\logs` and log filename is `transaction-debug.log`
